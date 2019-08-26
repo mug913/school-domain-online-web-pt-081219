@@ -23,6 +23,6 @@ class School
   end 
   
   def sort
-    roster[:grade][student_name.sort]
+    roster[:grade.sort]
   end
 end
