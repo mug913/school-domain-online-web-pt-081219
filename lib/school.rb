@@ -1,7 +1,7 @@
 class School 
   
-  def initialize(name)
-    @name = name 
+  def initialize(school_name)
+    @school_name = school_name 
     @roster = {} 
   end 
   
@@ -9,6 +9,7 @@ class School
     @roster 
   end
   
-   def add_student(name,grade)
+   def add_student(student_name, grade)
+     roster[student_name] => grade
   end
 end
