@@ -22,4 +22,7 @@ class School
     roster[grade] 
   end 
   
+  def sort
+    roster[grade][student_name.sort]
+  end
 end
